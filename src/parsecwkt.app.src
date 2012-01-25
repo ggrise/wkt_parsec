@@ -1,0 +1,13 @@
+{application, parsecwkt,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {modules, [wkt]},
+  {mod, {wkt, []}},
+  {env, []}
+ ]}.
